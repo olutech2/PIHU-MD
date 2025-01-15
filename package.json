@@ -1,12 +1,12 @@
 {
-  "name": "olumd",
+  "name": "pihumd",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name olumd",
-    "stop": "pm2 stop olumd",
-    "restart": "pm2 restart olumd"
+    "start": "pm2 start index.js --deep-monitoring --attach --name pihumd",
+    "stop": "pm2 stop pihumd",
+    "restart": "pm2 restart pihumd"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
